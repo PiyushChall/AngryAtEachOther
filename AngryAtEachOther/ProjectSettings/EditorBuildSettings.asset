@@ -32,4 +32,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tuto 3.unity
     guid: 1e1f08f3c6de67142bac6439e3ac35c7
+  - enabled: 1
+    path: Assets/Scenes/LVL 3.unity
+    guid: 6ec65a9fa13486b4f946461b7e372976
+  - enabled: 1
+    path: Assets/Scenes/Tuto 4.unity
+    guid: c046db5fa8d0dcf459aa7b819fd20351
+  - enabled: 1
+    path: Assets/Scenes/LVL 4.unity
+    guid: 13ebe22e153f01f46a62ea513a7c14c7
   m_configObjects: {}

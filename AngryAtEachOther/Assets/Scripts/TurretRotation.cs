@@ -19,8 +19,7 @@ public class TurretRotation : MonoBehaviour
     private float timebetweenfire;
     public float resetTime = 4f;
 
-    public int gameOverScene;
-    public int went2FarScene;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -51,18 +50,7 @@ public class TurretRotation : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, q, speed * Time.deltaTime);
         
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Obj")
-        {
-
-            SceneManager.LoadScene(gameOverScene);
-        }
-        else if (collision.tag == "Bounds")
-        {
-            SceneManager.LoadScene(went2FarScene);
-        }
-    }
+    
 
 
 

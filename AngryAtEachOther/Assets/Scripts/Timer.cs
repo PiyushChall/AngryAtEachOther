@@ -10,7 +10,7 @@ public class Timer : MonoBehaviour
     public float startTime = 20f;
     [SerializeField] public Text countdownText;
 
-    public int gameover = 1;
+    public int Next;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +27,7 @@ public class Timer : MonoBehaviour
 
         if (currentTime <= 0)
         {
-            SceneManager.LoadScene(gameover);
+            SceneManager.LoadScene(Next);
         }
     }
 }

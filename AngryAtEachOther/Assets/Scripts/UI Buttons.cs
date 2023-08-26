@@ -9,6 +9,7 @@ public class UIButtons : MonoBehaviour
     private int Lvl1 = 5;
     private int Lvl2 = 7;
     private int Lvl3 = 9;
+    private int Lvl4 = 11;
     private int Mainmenu = 0;
     
     public void startTuto()
@@ -30,6 +31,10 @@ public class UIButtons : MonoBehaviour
     public void startlvl3()
     {
         SceneManager.LoadScene(Lvl3);
+    }
+    public void startlvl4()
+    {
+        SceneManager.LoadScene(Lvl4);
     }
     public void mainmenu()
     {

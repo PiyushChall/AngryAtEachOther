@@ -36,7 +36,7 @@ Transform:
   - {fileID: 5107758569014097272}
   - {fileID: 3426055940005220722}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6910436787195025059
 SpriteRenderer:
@@ -164,8 +164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29293fbdacdfe4d4ab62b5b1088dedab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverScene: 7
-  went2FarScene: 8
+  gameOverScene: 1
+  went2FarScene: 2
 --- !u!1 &1610146435080133481
 GameObject:
   m_ObjectHideFlags: 0

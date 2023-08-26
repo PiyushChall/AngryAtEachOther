@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  gameOverScene: 6
+  gameOverScene: 1
 --- !u!60 &6668076183342391322
 PolygonCollider2D:
   m_ObjectHideFlags: 0
