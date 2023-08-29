@@ -16,8 +16,8 @@ public class RandomMovements : MonoBehaviour
 
     private Vector2 targetPosition;
 
-    public int gameOverScene;
-    public int went2FarScene;
+    private int gameOverScene = 16;
+    private int went2FarScene = 17;
 
     private float secondsToMaxDifficulty = 30f;
 

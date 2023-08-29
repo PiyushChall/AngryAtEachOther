@@ -8,7 +8,7 @@ public class Projectile : MonoBehaviour
     
     public float speed;
 
-    public int gameOverScene;
+    private int gameOverScene = 16;
     
     // Start is called before the first frame update
     void Start()

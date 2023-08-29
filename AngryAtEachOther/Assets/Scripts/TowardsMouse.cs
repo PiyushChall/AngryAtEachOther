@@ -11,8 +11,8 @@ public class TowardsMouse : MonoBehaviour
 
     float secondsToMaxDifficulty = 40f;
 
-    public int gameOverScene;
-    public int went2FarScene;
+    private int gameOverScene = 16;
+    private int went2FarScene = 17;
     // Start is called before the first frame update
     void Start()
     {
